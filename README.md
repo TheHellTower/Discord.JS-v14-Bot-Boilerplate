@@ -43,8 +43,8 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
 
 ## 🎥 Preview
 
-[YouTube video](https://www.youtube.com/watch?v=ID)
-[![](https://i.imgur.com/ID.png)](https://www.youtube.com/watch?v=ID)
+[YouTube video](https://www.youtube.com/watch?v=T3l9AsmKdyI)
+[![](https://i.imgur.com/bteV0pB.png)](https://www.youtube.com/watch?v=T3l9AsmKdyI)
 
 ## 🌟 Stars
 
