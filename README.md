@@ -17,7 +17,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     - [x] Aliases
     - [x] Description
     - [x] Permmissions(Bot & User) & Owner Only
-    - [ ] Guild Only (Need to implement direct messages reading + add it to `messageCreate` event)
+    - [ ] Guild Only (Need to implement direct messages reading + add it to \`messageCreate\` event)
     - [x] Cooldowns
     - [x] Status(enabled/disabled)
 - [x] Ping For Prefix(@bot to get the server prefix)
@@ -92,7 +92,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     <summary>
         How can I implement a cooldown system for commands ?
     </summary>
-    You don't need to do it, one small and basic exist already. You might want to tae a look at the `example.js` in the `Commands` folder
+    You don't need to do it, one small and basic exist already. You might want to tae a look at the \`example.js\` in the \`Commands\` folder
 </details>
 <details>
     <summary>
@@ -104,7 +104,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     <summary>
         Is there support for automatic command reloading or hot-reloading ?
     </summary>
-    Yup, you can use the `reload` command for it ! (It will clear the console too if you don't modify the code)
+    Yup, you can use the \`reload\` command for it ! (It will clear the console too if you don't modify the code)
 </details>
 <details>
     <summary>
@@ -167,9 +167,9 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
         I need some help to setup my bot, do you give support ?
     </summary>
     Yes and no, I can't just do that and see a bunch of people in my DMs to setup their bot. However, I can do it for:
-    - 5€) `Support the first 48 hours`
-    - 25€) `Support the first 2 weeks` 
-    - 50€) `Support the first month*`
+    - 5€) \`Support the first 48 hours\`
+    - 25€) \`Support the first 2 weeks\` 
+    - 50€) \`Support the first month*\`
 
     Note: The support is only for this code base, if you haven't altered the structure too much(Code cleanup doesn't count as too much altered), no other code in your bot such as a command you added.
     *) Include code support even for commands you added.
@@ -180,7 +180,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     <summary>
         Can you make me a custom bot with everything I need ?
     </summary>
-    Yes and no, like I said above, I can't just do that and see a bunch of people in my DMs to setup their bot. However, You can send me an email at: `thehelltower@tuta.io` with your offer(price + details such as features, commands, db system, etc..)
+    Yes and no, like I said above, I can't just do that and see a bunch of people in my DMs to setup their bot. However, You can send me an email at: \`thehelltower@tuta.io\` with your offer(price + details such as features, commands, db system, etc..)
 
     Note: Support for the first month included(more if the offer nice).
 </details>
@@ -188,7 +188,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     <summary>
         I have a question, can I contact you ?
     </summary>
-    Yes you can either by opening a issue: https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate/issues/new or send me an email at: `thehelltower@tuta.io` or contact me on one of my socials here: https://github.com/TheHellTower#-socials
+    Yes you can either by opening a issue: https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate/issues/new or send me an email at: \`thehelltower@tuta.io\` or contact me on one of my socials here: https://github.com/TheHellTower#-socials
 
     Note: Only for questions no code support.
 </details>
