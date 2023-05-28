@@ -62,7 +62,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     <summary>
         Can I use it for Discord.JS v14.11.x ?
     </summary>
-    Yes, but you are not limited to this version if you know how to use a documentation, their documentation can be found [here](https://old.discordjs.dev/#/docs/discord.js/main/general/welcome).
+    Yes, but you are not limited to this version if you know how to use a documentation, their documentation can be found https://old.discordjs.dev/#/docs/discord.js/main/general/welcome.
 </details>
 <details>
     <summary>
@@ -80,7 +80,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     <summary>
         What features do this boilerplate provide ?
     </summary>
-    Well, if you scroll up a bit you can see the features list of [click here](https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate#-features)
+    Well, if you scroll up a bit you can see the features list of https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate#-features
 </details>
 <details>
     <summary>
@@ -110,13 +110,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     <summary>
         How can I implement a system for handling user input prompts or interactive dialogs ?
     </summary>
-    You can take a look at [this command(prefix)](https://github.com/TheHellTower/Discord-Bot-List/blob/master/src/Commands/Administration/Prefix/js) to get a example using dialog and button !
-</details>
-<details>
-    <summary>
-        How can I implement a system for handling user input prompts or interactive dialogs ?
-    </summary>
-    You can take a look at [this command(prefix)](https://github.com/TheHellTower/Discord-Bot-List/blob/master/src/Commands/Administration/Prefix/js) to get a example using dialog and button !
+    You can take a look at this command(prefix: https://github.com/TheHellTower/Discord-Bot-List/blob/master/src/Commands/Administration/Prefix.js ) to get a example using dialog and button !
 </details>
 <details>
     <summary>
@@ -148,7 +142,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     <summary>
         I have a permmissions problem, what to do ?
     </summary>
-    Well yeah I used the oldly used "Bitwise Permission Flags", I'm not sure if it fork in the template right now as I did all my tests in a guild I own. In the worst case you still can take a look at [this](https://discord-api-types.dev/api/discord-api-types-payloads/common#PermissionFlagsBits) to get supported flags version :)
+    Well yeah I used the oldly used "Bitwise Permission Flags", I'm not sure if it fork in the template right now as I did all my tests in a guild I own. In the worst case you still can take a look at this: https://discord-api-types.dev/api/discord-api-types-payloads/common#PermissionFlagsBits to get supported flags version :)
 </details>
 <details>
     <summary>
@@ -160,7 +154,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     <summary>
         Can I support the project ?
     </summary>
-    Yes, you can either "sponsor" me with the button on my profile or donate by [going there](https://github.com/TheHellTower#-support-my-work) and read, if you want to donate throughh PayPal you can add me on Discord: [click here to see my Discord](https://github.com/TheHellTower#-socials).
+    Yes, you can either "sponsor" me with the button on my profile or donate by going there: https://github.com/TheHellTower#-support-my-work and read, if you want to donate through PayPal you can add me on Discord, click here to see my Discord: https://github.com/TheHellTower#-socials.
 </details>
 <details>
     <summary>
@@ -194,7 +188,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     <summary>
         I have a question, can I contact you ?
     </summary>
-    Yes you can either by [opening a issue](https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate/issues/new) or send me an email at: `thehelltower@tuta.io` or contact me on one of my socials [here](https://github.com/TheHellTower#-socials)
+    Yes you can either by opening a issue: https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate/issues/new or send me an email at: `thehelltower@tuta.io` or contact me on one of my socials here: https://github.com/TheHellTower#-socials
 
     Note: Only for questions no code support.
 </details>
