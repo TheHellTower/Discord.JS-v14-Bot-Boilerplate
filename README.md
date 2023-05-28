@@ -38,7 +38,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     
 - [ ] Optionnals
     - [ ] Cleanup(Clean the code)
-    - Internationalization (i18n) for multi-language support
+    - [ ] Internationalization (i18n) for multi-language support
 
 
 ## 🎥 Preview
