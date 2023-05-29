@@ -57,7 +57,9 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
 - [ ] 30 Stars | Internationalization (i18n) for multi-language support
 - [ ] 35 Stars | Dashboard [poll](https://strawpoll.com/polls/GJn47pBK3yz)
 - [ ] 40 Stars | Sharding System (Adapting the commands too)
-- [ ] 50 Stats | Multi-VPS Sharding Support + tutorial 
+- [ ] 50 Stats | Multi-VPS Sharding Support + tutorial
+
+Obviously, bots doesn't count and will be blocked.
 
 
 ## 📚 FAQ
