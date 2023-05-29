@@ -17,29 +17,30 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     - [x] Aliases
     - [x] Description
     - [x] Permmissions(Bot & User) & Owner Only
-    - [ ] Guild Only (Need to implement direct messages reading + add it to "messageCreate" event)
+    - [ ] Guild Only (Need to implement direct messages reading + add it to "messageCreate" event)*
     - [x] Cooldowns
     - [x] Status(enabled/disabled)
 - [x] Ping For Prefix(@bot to get the server prefix)
 - [ ] Database Support: Integrate DataBase for persistent data storage.
     - [x] MongoDB
-    - [ ] Add another DB support in case the user want to use another one ?
-- [ ] Dashboard: To configure/use the bot/servers remotely
-    - [ ] Bot configuration(Prefix change)
-    - [ ] Stats ?
-- [ ] Logging: Implement a logging system to track important events and activities.
-- [ ] Error handling: Develop a robust error handling mechanism to handle exceptions gracefully.
+    - [ ] Add another DB support in case the user want to use another one ?*
 - [x] Event handling: Set up event handlers to respond to various Discord events.
 - [x] Customizable prefixes: Allow server administrators to set custom command prefixes.
-- [ ] Built-in help command: Include a built-in command to provide information about available commands.
-- [ ] Pagination: Implement pagination for commands or other data lists.
-- [ ] Shard System
-    - [ ] Multi-VPS Support
+- [ ] Dashboard: To configure/use the bot/servers remotely*
+    - [ ] Bot configuration(Prefix change)*
+    - [ ] Stats ?*
+- [ ] Logging: Implement a logging system to track important events and activities.*
+- [ ] Error handling: Develop a robust error handling mechanism to handle exceptions gracefully.*
+- [ ] Built-in help command: Include a built-in command to provide information about available commands.*
+- [ ] Pagination: Implement pagination for commands or other data lists.*
+- [ ] Shard System*
+    - [ ] Multi-VPS Support*
     
 - [ ] Optionnals
     - [ ] Cleanup(Clean the code)
-    - [ ] Internationalization (i18n) for multi-language support
+    - [ ] Internationalization (i18n) for multi-language support*
 
+*) Awaiting star objectives
 
 ## 🎥 Preview
 
@@ -48,7 +49,16 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
 
 ## 🌟 Stars
 
-- None for the moment but will come later.
+- [ ] 5 Stars | Guild Only commands support(+ Direct Messages handling)
+- [ ] 10 Stars | Another DB Support [poll](https://strawpoll.com/polls/QrgebdEp2Zp)
+- [ ] 15 Stars | Logging System + Error handling
+- [ ] 20 Stars | Built-in help command
+- [ ] 25 Stars | Pagination System(can be useful for servers list or users list)
+- [ ] 30 Stars | Internationalization (i18n) for multi-language support
+- [ ] 35 Stars | Dashboard [poll](https://strawpoll.com/polls/GJn47pBK3yz)
+- [ ] 40 Stars | Sharding System (Adapting the commands too)
+- [ ] 50 Stats | Multi-VPS Sharding Support + tutorial 
+
 
 ## 📚 FAQ
 
