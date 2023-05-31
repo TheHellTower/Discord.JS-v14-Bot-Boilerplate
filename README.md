@@ -40,12 +40,17 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     - [ ] Cleanup(Clean the code)
     - [ ] Internationalization (i18n) for multi-language support*
 
-*) Awaiting star objectives
+*) **Awaiting star objectives**
 
 ## 🎥 Preview
 
 [YouTube video](https://www.youtube.com/watch?v=mULwjLoWoM8)
 [![](https://i.imgur.com/bteV0pB.png)](https://www.youtube.com/watch?v=mULwjLoWoM8)
+
+## 🤖 Bots Remake | 🌟 Stars
+- [ ] 15 Stars | WatchBot
+- If you have an idea of bot to be remade, please feel free to [open a issue](https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate/issues/new?title=Bot%20Remake).
+
 
 ## 🌟 Stars
 
@@ -57,7 +62,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
 - [ ] 30 Stars | Internationalization (i18n) for multi-language support
 - [ ] 35 Stars | Dashboard [poll](https://strawpoll.com/polls/GJn47pBK3yz)
 - [ ] 40 Stars | Sharding System (Adapting the commands too)
-- [ ] 50 Stats | Multi-VPS Sharding Support + tutorial
+- [ ] 50 Stars | Multi-VPS Sharding Support + tutorial
 
 Obviously, bots doesn't count and will be blocked.
 
