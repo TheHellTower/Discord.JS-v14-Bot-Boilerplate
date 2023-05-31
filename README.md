@@ -48,21 +48,21 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
 [![](https://i.imgur.com/bteV0pB.png)](https://www.youtube.com/watch?v=mULwjLoWoM8)
 
 ## 🤖 Bots Remake | 🌟 Stars
-- [ ] 15 Stars | WatchBot
+- [ ] 15🌟 | WatchBot
 - If you have an idea of bot to be remade, please feel free to [open a issue](https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate/issues/new?title=Bot%20Remake).
 
 
 ## 🌟 Stars
 
-- [ ] 5 Stars | Guild Only commands support(+ Direct Messages handling)
-- [ ] 10 Stars | Another DB Support [poll](https://strawpoll.com/polls/QrgebdEp2Zp)
-- [ ] 15 Stars | Logging System + Error handling
-- [ ] 20 Stars | Built-in help command
-- [ ] 25 Stars | Pagination System(can be useful for servers list or users list)
-- [ ] 30 Stars | Internationalization (i18n) for multi-language support
-- [ ] 35 Stars | Dashboard [poll](https://strawpoll.com/polls/GJn47pBK3yz)
-- [ ] 40 Stars | Sharding System (Adapting the commands too)
-- [ ] 50 Stars | Multi-VPS Sharding Support + tutorial
+- [ ] 5🌟| Guild Only commands support(+ Direct Messages handling)
+- [ ] 10🌟| Another DB Support [poll](https://strawpoll.com/polls/QrgebdEp2Zp)
+- [ ] 15🌟| Logging System + Error handling
+- [ ] 20🌟| Built-in help command
+- [ ] 25🌟| Pagination System(can be useful for servers list or users list)
+- [ ] 30🌟| Internationalization (i18n) for multi-language support
+- [ ] 35🌟| Dashboard [poll](https://strawpoll.com/polls/GJn47pBK3yz)
+- [ ] 40🌟| Sharding System (Adapting the commands too)
+- [ ] 50🌟| Multi-VPS Sharding Support + tutorial
 
 Obviously, bots doesn't count and will be blocked.
 
