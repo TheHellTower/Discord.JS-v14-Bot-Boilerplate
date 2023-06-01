@@ -45,6 +45,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
 ## 🎥 Preview
 
 [YouTube video](https://www.youtube.com/watch?v=mULwjLoWoM8)
+[Twitter(Tweet)](https://twitter.com/TheHellTower/status/1664408125837852679)
 [![](https://i.imgur.com/bteV0pB.png)](https://www.youtube.com/watch?v=mULwjLoWoM8)
 
 ## 🤖 Bots Remake | 🌟 Stars
