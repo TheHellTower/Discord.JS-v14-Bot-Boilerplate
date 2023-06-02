@@ -66,7 +66,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
 
 Obviously, bots doesn't count and will be blocked.
 
-📊 Polls (Hyer-Link)
+## 📊 Polls (Hyer-Link)
 
 - [Another DB Support](https://strawpoll.com/polls/QrgebdEp2Zp)
 - [Dashboard](https://strawpoll.com/polls/GJn47pBK3yz)
