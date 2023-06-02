@@ -1,6 +1,5 @@
 # Discord.JS-v14-Bot-Boilerplate
 
-> **Warning** Maximum release date: 4 May 2023
 > **Warning** Discord.JS v14 need you to have [Node.JS](https://nodejs.org/en) version 16.9.x or newer, if you have an old version you will have to update ;).
 
 [![CodeFactor](https://www.codefactor.io/repository/github/thehelltower/discord.js-v14-bot-boilerplate/badge)](https://www.codefactor.io/repository/github/thehelltower/discord.js-v14-bot-boilerplate)
