@@ -1,6 +1,6 @@
 # Discord.JS-v14-Bot-Boilerplate
 
-> **Warning** Discord.JS v14 need you to have [Node.JS](https://nodejs.org/en) version 16.9.x or newer, if you have an old version you will have to update ;).
+> **Warning** Discord.JS v14 need you to have [Node.JS](https://nodejs.org/en) version 16.9.x or newer, if you have an old version you will have to update ;).<br>Also for some future features I need some answer to these [polls](https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate#-polls-hyer-link) !
 
 [![CodeFactor](https://www.codefactor.io/repository/github/thehelltower/discord.js-v14-bot-boilerplate/badge)](https://www.codefactor.io/repository/github/thehelltower/discord.js-v14-bot-boilerplate)
 
