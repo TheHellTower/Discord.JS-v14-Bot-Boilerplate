@@ -33,6 +33,8 @@ module.exports = class BoilerplateClient extends Client {
 
     this.utils = new Util(this);
 
+    this.languages = require("../Languages/language-meta.json");
+
     globalThis.TheHellTower = {
       Config: options,
       Modules: {
@@ -51,6 +53,8 @@ module.exports = class BoilerplateClient extends Client {
       Util: this.utils
     };
 
+    require("../Helpers/Extenders.js");
+
     globalThis.TheHellTower.Modules.mongoose.set("strictQuery", false);
     globalThis.TheHellTower.Modules.mongoose
       .connect(options.MONGOOSE_URL, {
@@ -66,6 +70,17 @@ module.exports = class BoilerplateClient extends Client {
     globalThis.TheHellTower.DB = require("../Handlers/DataBase/DataBase.js");
   }
 
+  get defaultLanguage() {
+    return this.languages.find((language) => language.default).name;
+  }
+
+  translate(key, args, locale) {
+    if (!locale) locale = this.defaultLanguage;
+    const language = this.translations.get(locale);
+    if (!language) throw "Invalid language set in data.";
+    return language(key, args);
+  }
+  
   validate(options) {
     if (typeof options !== "object")
       throw new TypeError("Options should be a type of Object.");
@@ -87,6 +102,9 @@ module.exports = class BoilerplateClient extends Client {
   async start(token = this.config.token) {
     this.utils.loadCommands();
     this.utils.loadEvents();
+
+    const _languages = require("../Handlers/Languages.js");
+    this.translations = await _languages();
 
     super.login(token).then(async () => {
       this.utils.loadSlashCommands();

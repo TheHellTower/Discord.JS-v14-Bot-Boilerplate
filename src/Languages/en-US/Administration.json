@@ -1,0 +1,12 @@
+{
+    "CURRENT_PREFIX": "The current prefix for this guild is: `{{PREFIX}}`\n\nTips: You can ping (<@{{BOT_ID}}>) the bot to know the prefix !",
+    "CHANGE_PREFIX": "Change The Prefix",
+    "NEW_PREFIX_PROMPT": "Enter The New Prefix",
+    "PREFIX_ALREADY_SET": "The prefix for this guild was already: `{{PREFIX}}`",
+    "PREFIX_UPDATE_SUCCESS": "The prefix for this guild has been successfully updated to: `{{PREFIX}}`",
+
+    "LANGUAGES_LIST": "Languages:\n\n- {{LANGUAGES}}\n\nEnter The New Language !",
+    "LANGUAGES_UPDATE_SUCCESS": "The language for this guild has been successfully updated !",
+    "LANGUAGES_NOT_SUPPORTED": "This language is not supported at this moment..",
+    "LANGUAGES_NO_ARG": "Language: `{{LANGUAGE_NATIVE_NAME}}`\n\nNote: you can add the keyword `set` after the command name to set a new language."
+}

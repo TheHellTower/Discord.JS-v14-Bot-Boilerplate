@@ -14,7 +14,7 @@ module.exports = class extends Command {
       ownerOnly: false,
       guildOnly: true,
       cooldown: 5,
-      enabled: false,
+      enabled: true,
     });
   }
 
@@ -25,8 +25,12 @@ module.exports = class extends Command {
         .setCustomId("changePrefix")
         .setLabel("Change")
     );
+
     const msg = await message.reply({
-      content: `The current prefix for this server is: \`${data.guild.prefix}\`\n\nTips: You can ping (<@${this.client.user.id}>) the bot to know the prefix !`,
+      content: await message.translate("Administration:CURRENT_PREFIX", message.guild.id, {
+        PREFIX: data.guild.prefix,
+        BOT_ID: this.client.user.id
+      }),
       components: [button],
     });
 
@@ -44,12 +48,12 @@ module.exports = class extends Command {
           //await collector.stop();
           const modal = new ModalBuilder()
             .setCustomId(modalId)
-            .setTitle(`Change Prefix`);
+            .setTitle(await message.translate("Administration:CHANGE_PREFIX", message.guild.id));
 
           const textInputId = `${button.components[0].data.custom_id}Input`;
           const textInput = new TextInputBuilder()
             .setCustomId(textInputId)
-            .setLabel("Which prefix do you want ?")
+            .setLabel(await message.translate("Administration:NEW_PREFIX_PROMPT", message.guild.id))
             .setRequired(true)
             .setStyle(TextInputStyle.Short);
 
@@ -61,7 +65,9 @@ module.exports = class extends Command {
               if(data.guild.prefix == i.fields.getTextInputValue("changePrefixInput")) {
                 i.deferUpdate();
                 return msg.edit({
-                  content: `Guild prefix was already: \`${data.guild.prefix}\``,
+                  content: await message.translate("Administration:PREFIX_ALREADY_SET", message.guild.id, {
+                    PREFIX: data.guild.prefix
+                  }),
                   components: [],
                 });
               }
@@ -69,16 +75,18 @@ module.exports = class extends Command {
                 i.fields.getTextInputValue("changePrefixInput");
               await data.guild
                 .save()
-                .then(() => {
+                .then(async () => {
                   i.deferUpdate();
                   return msg.edit({
-                    content: `Guild prefix successfully updated to: \`${data.guild.prefix}\``,
+                    content: await message.translate("Administration:PREFIX_UPDATE_SUCCESS", message.guild.id, {
+                      PREFIX: data.guild.prefix
+                    }),
                     components: [],
                   });
                 })
-                .catch(() => {
+                .catch(async () => {
                   msg.edit({
-                    content: `Open a ticket in support server something went wrong.`,
+                    content: await message.translate("Common:SUPPORT_TICKET_ERROR_MESSAGE", message.guild.id),
                   });
                 });
               //await data.guild.save();

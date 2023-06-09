@@ -37,7 +37,7 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
     
 - [ ] Optionnals
     - [ ] Cleanup(Clean the code)
-    - [ ] Internationalization (i18n) for multi-language support*
+    - [x] Internationalization (i18n) for multi-language support (`French files need to be translated so you will have to work a bit !` and only the commands in `Administration` got translated for the Boilerplate !)
 
 *) **Awaiting star objectives**
 
@@ -59,9 +59,8 @@ This is a [discord.js](https://github.com/discordjs/discord.js) v14 Bot Boilerpl
 - [ ] 15🌟| Logging System + Error handling
 - [ ] 20🌟| Built-in help command
 - [ ] 25🌟| Pagination System(can be useful for servers list or users list)
-- [ ] 30🌟| Internationalization (i18n) for multi-language support
-- [ ] 35🌟| Dashboard
-- [ ] 40🌟| Sharding System (Adapting the commands too)
+- [ ] 30🌟| Dashboard
+- [ ] 35🌟| Sharding System (Adapting the commands too)
 - [ ] 50🌟| Multi-VPS Sharding Support + tutorial
 
 Obviously, bots doesn't count and will be blocked.
