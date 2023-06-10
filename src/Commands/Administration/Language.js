@@ -46,8 +46,8 @@ module.exports = class extends Command {
                   l.name === answerMessage.content ||
                   l.aliases.includes(answerMessage.content)
               );
-              data.user.language = language.name;
-              await data.user
+              data.guild.language = language.name;
+              await data.guild
                 .save()
                 .then(async() => {
                   message.reply({
